@@ -1,0 +1,31 @@
+# Core
+pandas>=2.0
+numpy>=1.24
+
+# Technical Analysis (Pine Script translation)
+# Note: pandas_ta installed with --no-deps to avoid numba incompatibility on Python 3.14
+# pandas_ta only needs pandas and numpy at runtime for our indicators
+pandas_ta>=0.3.14b
+
+# Broker Bridges
+MetaTrader5>=5.0.45
+ccxt>=4.0
+
+# Dashboard
+streamlit>=1.30
+streamlit-autorefresh>=1.0.1
+plotly>=5.18
+
+# Bot Loop Scheduler
+apscheduler>=3.10
+
+# Configuration & Security
+python-dotenv>=1.0
+cryptography>=41.0
+
+# Webhook (dormant — for future TradingView Pro)
+fastapi>=0.104
+uvicorn>=0.24
+
+# Testing
+pytest>=7.4
